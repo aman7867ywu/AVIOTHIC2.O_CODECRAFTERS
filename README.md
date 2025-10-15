@@ -1,20 +1,25 @@
- Student Management System (JSP + Servlet + JDBC)
+ 🎓 Student Management System
 
-Minimal student management app. CRUD for students using plain JDBC and JSP/Servlets.
+A simple Student Management System built using JSP and JDBC. This project helps manage student records — allowing users to add, view, update, and delete student information easily.
 
-** Prerequisites
-- Java 11+
-- Maven
-- Tomcat (10.x for Jakarta Servlet 5) or any compatible servlet container
-- MySQL
+🚀 Features
 
-** Setup
+Add new student details
 
-1. Create database and table:
-   - Run `sql/schema.sql` in your MySQL server.
+View all students
 
-2. Update DB credentials:
-   - Edit `src/main/java/com/example/sms/db/DBUtil.java`
-   - Set `USER` and `PASS`.
+Update existing student information
 
+Delete a student record
 
+Connects to MySQL database using JDBC
+
+🧰 Technologies Used
+
+Frontend: HTML, CSS, JSP
+
+Backend: Java (JDBC)
+
+Database: MySQL
+
+Server: Apache Tomcat
